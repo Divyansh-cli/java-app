@@ -8,7 +8,7 @@ public class Health {
 
 	@GetMapping(value = "/health")
 	public String health() {
-		return "Up and running!";
+		return "This page is up and running!!";
 	}
 
 }
